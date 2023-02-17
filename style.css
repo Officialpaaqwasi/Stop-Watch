@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.h1{
+    display: center;
+    transform: uppercase;
+    text-decoration: double;
+
+}
+.background{
+    position: relative;
+    overflow: hidden;
+    height: 40rem;
+    width: 85rem;
+}
+.info{
+    text-align: center;
+    position: relative;
+    display: inline;
+    margin-top: 90px;
+}
