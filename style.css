@@ -1,23 +1,33 @@
 *{
-    box-sizing: border-box;
+    
     padding: 0;
     margin: 0;
 }
-.h1{
+body{
+    background-image: url(time3.jpg);
+    color: black;
+}
+.hed{
     display: center;
     transform: uppercase;
     text-decoration: double;
+    left: 10px;
 
 }
-.background{
-    position: relative;
-    overflow: hidden;
-    height: 40rem;
-    width: 85rem;
+
+nav{
+    text-align: center;
 }
 .info{
     text-align: center;
     position: relative;
-    display: inline;
-    margin-top: 90px;
+    display: inline-flex;
+    margin-top: 25%;
+    left: 25rem;
+    
+}
+.most{
+    display: inline-flex;
+    padding-top: 30px;
+
 }
