@@ -1,33 +1,43 @@
 *{
-    
     padding: 0;
     margin: 0;
 }
 body{
     background-image: url(time3.jpg);
     color: black;
+    overflow: hidden;
 }
-.hed{
-    display: center;
-    transform: uppercase;
-    text-decoration: double;
-    left: 10px;
+.container{
+    width: 800px;
+    margin: 350px auto;
+    color: black;
+    text-align: center; 
 
 }
-
-nav{
-    text-align: center;
+h1,h2,h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
 }
-.info{
-    text-align: center;
-    position: relative;
-    display: inline-flex;
-    margin-top: 25%;
-    left: 25rem;
-    
+#seconds,
+#tens {
+    font-size: 5em;
+    font-weight: 600;
 }
-.most{
-    display: inline-flex;
-    padding-top: 30px;
-
+button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+button:hover {
+    background: black;
+    color: green;
+    font-weight: 800;
+    text-transform: capitalize;
 }
